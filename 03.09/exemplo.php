@@ -9,7 +9,7 @@
 <body> 
 <div class="container py-3">
 <h1>Exemplo de Funções em PHP</h1>
-<form method="post">
+<form method="post" action="exemplo.php">
             <div class="mb-3">
               <label for="nome" class="form-label">Informe o seu nome</label>
               <input type="text" id="nome" name="nome" class="form-control" required="">
@@ -23,7 +23,43 @@
 </form>
 
 <?php
+if($_SERVER['REQUEST_METHOD'] == 'POST')
+{
+    $nome = $_POST['nome'] ?? "";
+    $idade = $_POST['idade'] ?? 0;
 
+    if($nome != "" && $idade > 0)
+    {
+        $qtd = strlen($nome);
+        echo "<p>Qtd de caracteres do nome: $qtd<p/>";
+        echo "<p>Maiúsculo: ". strtoupper($nome) ."</p>";
+
+        $s = str_replace("a", "4", $nome);
+        echo "<p>Substitituição da letra A: $s </p>";
+
+        date_default_timezone_set('America/Sao_Paulo');
+
+        $dia = date("d");
+        echo "<p>Dia: $dia </p>";
+
+        $mes = date("m");
+        echo "<p>Mês: $mes </p>";
+
+        $tempo = date("d/m/Y H:i:s");
+        echo "<p>Tempo: $tempo </p>";
+
+        $exp = pow($idade, 2);
+        echo "<p>Exponecial: $exp </p>";
+        
+        $valor = rand(1,10);
+        echo "<p>Valor Aleatório: $valor</p>";
+
+        $resultado = 10.34 * 2.9;
+        echo "<p>Resultado sem formatação: $resultado</p>";
+        $resultado = number_format($resultado, 2, ",", ".");
+        echo "<p>Resultado com formatação: $resultado</p>";
+    }
+}
 ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
