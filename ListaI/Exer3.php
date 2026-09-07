@@ -6,16 +6,13 @@
     <title>Exerc. 1</title>
 </head>
 <body>
-    <h1>Exercício - Média</h1>
-    <form method="post" action="mediar.php">
+    <h1>Exercício - Multiplicação</h1>
+    <form method="post" action="Exer3r.php">
         <label for="valor1">Informe o primeiro valor</label>
         <input type="number" id="valor1" name="valor1">
 
         <label for="valor2">Informe o segundo valor</label>
         <input type="number" id="valor2" name="valor2">
-
-        <label for="valor3">Informe o terceiro valor</label>
-        <input type="number" id="valor3" name="valor3">
 
         <button type="submit">Enviar</button>
     </form>

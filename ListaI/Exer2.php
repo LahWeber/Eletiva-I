@@ -6,10 +6,13 @@
     <title>Exerc. 1</title>
 </head>
 <body>
-    <h1>Exercício - Conversão de Celsius para Fahrenheit</h1>
-    <form method="post" action="tempr.php">
-        <label for="valor1">Informe a temperatura em Celsius: </label>
+    <h1>Exercício - Subtração</h1>
+    <form method="post" action="Exer2r.php">
+        <label for="valor1">Informe o primeiro valor</label>
         <input type="number" id="valor1" name="valor1">
+
+        <label for="valor2">Informe o segundo valor</label>
+        <input type="number" id="valor2" name="valor2">
 
         <button type="submit">Enviar</button>
     </form>
