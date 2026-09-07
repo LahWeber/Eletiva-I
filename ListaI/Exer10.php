@@ -6,8 +6,8 @@
     <title>Exerc. 1</title>
 </head>
 <body>
-    <h1>Exercício - Área do círculo</h1>
-    <form method="post" action="Exer8r.php">
+    <h1>Exercício - Perímetro do círculo</h1>
+    <form method="post" action="Exer10r.php">
         <label for="valor1">Informe o valor do raio</label>
         <input type="number" id="valor1" name="valor1">
 
