@@ -10,10 +10,10 @@
     <form method="post" action="Exer1r.php">
         <label for="valor1">Informe o primeiro valor</label>
         <input type="number" id="valor1" name="valor1">
-
+<br>
         <label for="valo2">Informe o segundo valor</label>
         <input type="number" id="valor2" name="valor2">
-
+<br>
         <button type="submit">Enviar</button>
     </form>
 </body>

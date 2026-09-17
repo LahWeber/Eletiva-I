@@ -10,7 +10,7 @@
     <form method="post" action="Exer6r.php">
         <label for="valor1">Informe a temperatura em Fahrenheit</label>
         <input type="number" id="valor1" name="valor1">
-
+<br>
         <button type="submit">Enviar</button>
     </form>
 </body>

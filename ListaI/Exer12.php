@@ -6,13 +6,10 @@
     <title>Exerc. 1</title>
 </head>
 <body>
-    <h1>Exercício - Perímetro do retângulo</h1>
-    <form method="post" action="Exer9r.php">
-        <label for="valor1">Informe a largura do retângulo</label>
+    <h1>Exercício - Conversão de Metros para Centímetros</h1>
+    <form method="post" action="Exer12r.php">
+        <label for="valor1">Informe o valor em metros</label>
         <input type="number" id="valor1" name="valor1">
-<br>
-        <label for="valor2">Informe a altura do retângulo</label>
-        <input type="number" id="valor2" name="valor2">
 <br>
         <button type="submit">Enviar</button>
     </form>

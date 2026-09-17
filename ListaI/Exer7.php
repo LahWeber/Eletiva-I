@@ -10,10 +10,10 @@
     <form method="post" action="Exer7r.php">
         <label for="valor1">Informe a largura do retângulo</label>
         <input type="number" id="valor1" name="valor1">
-
+<br>
         <label for="valor2">Informe a altura do retângulo</label>
         <input type="number" id="valor2" name="valor2">
-
+<br>
         <button type="submit">Enviar</button>
     </form>
 </body>
