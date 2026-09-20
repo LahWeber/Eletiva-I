@@ -10,5 +10,5 @@
     else
     {
         $triplo = ($valor1 + $valor2) * 3;
-        echo "O triplo do resultado é: $triplo"
+        echo "O triplo do resultado é: $triplo";
     }
