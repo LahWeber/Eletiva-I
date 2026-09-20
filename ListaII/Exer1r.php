@@ -7,7 +7,7 @@
     {
         echo "O valor da soma é: $soma";
     }
-    else()
+    else
     {
         $triplo = ($valor1 + $valor2) * 3;
         echo "O triplo do resultado é: $triplo"

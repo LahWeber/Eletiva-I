@@ -6,13 +6,10 @@
     <title>Exerc. 1</title>
 </head>
 <body>
-    <h1>Exercício - Soma</h1>
-    <form method="post" action="Exer1r.php">
-        <label for="valor1">Informe o primeiro valor</label>
+    <h1>Exercício - Desconto</h1>
+    <form method="post" action="Exer3r.php">
+        <label for="valor1">Informe o valor produto</label>
         <input type="number" id="valor1" name="valor1">
-<br>
-        <label for="valor2">Informe o segundo valor</label>
-        <input type="number" id="valor2" name="valor2">
 <br>
         <button type="submit">Enviar</button>
     </form>
