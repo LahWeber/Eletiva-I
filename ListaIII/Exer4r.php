@@ -1,13 +1,10 @@
 <?php
-if (isset($_POST['valor1'], $_POST['valor2'])) 
-{
-    if (strpos($_POST['valor1'], $_POST['valor2']) !== false) 
-    {
-        echo "A segunda palavra está contida na primeira.";
-    } 
+$dia = $_POST['valor1'];
+$mes = $_POST['valor2'];
+$ano = $_POST['valor3'];
 
-    else 
-    {
-        echo "Não está contida.";
-    }
+if (checkdate($mes, $dia, $ano)) {
+    echo "A data $dia/$mes/$ano é válida.";
+} else {
+    echo "A data $dia/$mes/$ano é inválida.";
 }
